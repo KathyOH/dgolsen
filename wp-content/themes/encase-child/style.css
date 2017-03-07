@@ -13,19 +13,33 @@
 
 .home-page {
     background: url("img/homepage-hero.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
-	margin-top: -20%;
 }
 #la-banner {
 	min-height: 800px;
     background-position: center;
     margin: 0px;;
 }
-footer#footer {
-	margin-top: -3%;
-	height: 80px;
+
+#header-meta {	
+	padding: 0%;
+	margin-bottom: -55px;
 }
-#header-meta {
-    padding: 0%;
+#header-meta h1 {
+    font-size: 22px;
+    line-height: 26px;
+    z-index: 103;
+}
+body.home #header h1.excerpt-null {
+    font-size: 22px;
+    line-height: 30px;
+    z-index: 103;
+    float: left;
+}
+body.home #header {	
+	margin-bottom: -55px;
+}
+body.home #header-meta {
+    padding-top: 0px;
 }
 
 /* Contact Page */
@@ -50,48 +64,10 @@ footer#footer {
 }
 
 
-/* Starting again with Contact Page Styling - This is the old stuff 
-a {
-	font-size: 2em;
-}
-.contact-page {
-	width: 1200px;
-}
-.profile-pic {
-	margin: 10%;
-	float: left;
-}
-.contact-info {
-	margin-top: 10%;
-	margin-left: 20%;
-	font-size: 2em;
-}
 
-.social-links {
-	width: 25%;
-	float: right;
-	margin-top: 75%;
-	margin-right: 10%;
-}
-*/
 
-#header-meta {	
-	margin-bottom: -55px;
-}
-#header-meta h1 {
-    font-size: 22px;
-    line-height: 26px;
-    z-index: 103;
-}
-body.home #header h1.excerpt-null {
-    font-size: 22px;
-    line-height: 30px;
-    z-index: 103;
-    float: left;
-}
-body.home #header {	
-	margin-bottom: -55px;
-}
-body.home #header-meta {
-    padding-top: 0px;
-}
+/* Footer*/
+footer#footer {
+	margin-top: -3%;
+	height: 80px;
+}   
