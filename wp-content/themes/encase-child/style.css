@@ -30,21 +30,23 @@ footer#footer {
 
 /* Contact Page */
 
-.david-info{
-	margin : 5% 5% 10% 20%;
+.contact-page{
+	margin : 5% 5% 20% 20%;
 }
-
+.profile-pic {
+	width: 20%;
+	margin-right: 20%;
+}
 .contact-info {
-	margin-top: -5%;
-    margin-right: 54%;
+	display: inline-block;
+    margin-right: 14%;
     font-size: 2em;
     line-height: 1.2em;
-    float: right;
+    float: left;
 }
 .social-links {
-	float: right;
-	margin-top: -12.4%;
-	margin-right: 28%;
+	float: left;
+	display: inline-block;
 }
 
 

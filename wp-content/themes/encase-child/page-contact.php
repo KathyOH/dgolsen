@@ -22,7 +22,6 @@ get_header(); ?>
 
 
 <div class="contact-page">
-	<div class="david-info">
 		<div class="profile-pic">	
 			<?php echo wp_get_attachment_image($david_image, $size); ?>
 		</div><!--profile pic-->
@@ -36,7 +35,6 @@ get_header(); ?>
 				</a>
 			</span>
 		</div><!--contact-info-->
-	</div><!--david-info-->
 		
 	<div class="social-links">	
 		<a href="http://www.imdb.com/name/nm8554950/" target="_blank">
