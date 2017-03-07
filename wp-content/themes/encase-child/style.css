@@ -12,9 +12,7 @@
 @import url("../encase/style.css");
 
 .home-page {
-    background: url("http://localhost:8888/dgolsen/wp-content/uploads/2017/02/header_head_bottom-e1488467501328.png") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
-}
-homepage-hero {
+    background: url("img/homepage-hero.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
 	margin-top: -20%;
 }
 #la-banner {
