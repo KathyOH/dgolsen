@@ -16,8 +16,10 @@ get_header(); ?>
 		$david_image = get_field("david_image");
 		$david_phone = get_field("david_phone");
 		$david_email = get_field("david_email");
-		$imdb_image = get_field("imdb_image");	
+		$imdb_image = get_field("imdb_image");
+		$linkedin_image = get_field("linkedin_image");
 		$size = "medium";
+		$logo_size = "small";
 ?>
 
 
@@ -38,10 +40,10 @@ get_header(); ?>
 		
 	<div class="social-links">	
 		<a href="http://www.imdb.com/name/nm8554950/" target="_blank">
-			<img src="http://localhost:8888/dgolsen/wp-content/uploads/2017/02/imdb_logo-1-e1488300507400.png"/>
+			<?php echo wp_get_attachment_image($imdb_image, $logo_size); ?>
 		</a>
 		<a href="https://www.linkedin.com/in/david-olsen-813a0b30/" target="_blank">
-			<img src="http://localhost:8888/dgolsen/wp-content/uploads/2017/02/LinkedIn_logo_initials-e1486922073301.png"/>
+			<?php echo wp_get_attachment_image($linkedin_image, $logo_size); ?>
 		</a>
 	</div><!--social-links-->
 

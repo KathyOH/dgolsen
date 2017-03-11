@@ -13,6 +13,7 @@
 
 .home-page {
     background: url("img/homepage-hero.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+	min-height: 100vh;
 }
 #la-banner {
 	min-height: 800px;
@@ -61,10 +62,8 @@ body.home #header-meta {
 .social-links {
 	float: left;
 	display: inline-block;
+	margin-top: 2%;
 }
-
-
-
 
 /* Footer*/
 footer#footer {
