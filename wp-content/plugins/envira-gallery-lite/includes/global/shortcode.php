@@ -1484,9 +1484,16 @@ class Envira_Gallery_Shortcode {
 					continue;
 				}
 
-				// We found the image size. Use its dimensions
-				$args['width'] = $size['width'];
-				$args['height'] = $size['height'];
+                // Define the $args so at least they exist
+                $args['width'] = $args['height'] = false;
+                
+                // We found the image size. Use its dimensions
+                if ( !empty( $size['width'] ) ) { 
+                    $args['width'] = $size['width'];
+                }
+                if ( !empty( $size['height'] ) ) { 
+                    $args['height'] = $size['height'];
+                }
 				break;
 
 			}
@@ -1557,8 +1564,17 @@ class Envira_Gallery_Shortcode {
 	 * @return void
 	 */
 	function usort_callback($a, $b) {
-			return intval($a['width']) - intval($b['width'] );
-		}
+		
+		return intval($a['width']) - intval($b['width'] );
+	
+	}
+	
+	/**
+	 * get_image_sizes function.
+	 * 
+	 * @access public
+	 * @return void
+	 */
 	public function get_image_sizes(){
 
 		global $_wp_additional_image_sizes;

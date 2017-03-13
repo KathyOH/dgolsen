@@ -138,7 +138,8 @@ If you like this plugin, then consider checking out our other projects:
 
 * <a href="http://optinmonster.com/" rel="friend" title="OptinMonster">OptinMonster</a> - Get More Email Subscribers
 * <a href="http://soliloquywp.com/" rel="friend" title="Soliloquy">Soliloquy</a> - Best WordPress Slider Plugin
-* <a href="http://www.themelab.com/" rel="friend" title="ThemeLab">ThemeLab</a> - Premium WordPress Themes that Work
+* <a href="https://wpforms.com" rel="friend" title="WPForms">WPForms</a> - Best WordPress Contact Form Plugin
+* <a href="https://www.monsterinsights.com" rel="friend" title="MonsterInsights"> MonsterInsights</a> - Best Google Analytics Plugin for WordPress
 
 Visit <a href="http://www.wpbeginner.com/" rel="friend" title="WPBeginner">WPBeginner</a> to learn from our <a href="http://www.wpbeginner.com/category/wp-tutorials/" rel="friend" title="WordPress Tutorials">WordPress Tutorials</a> and find out about other <a href="http://www.wpbeginner.com/category/plugins/" rel="friend" title="Best WordPress Plugins">best WordPress plugins</a>.
 
@@ -184,6 +185,11 @@ Envira Gallery is absolutely, positively the <a href="http://enviragallery.com/?
 Also, I'm an <a href="https://thomasgriffin.io" rel="me" title="WordPress Developer - Thomas Griffin">expert WordPress developer</a> and I write a lot about WordPress in general. You can check out my blog at the link above.
 
 == Changelog ==
+
+= 1.5.6.4 =
+
+* Fix: CSS issues TwentySeventeen  
+* Fix: Minor bug fixes.
 
 = 1.5.6.3 =
 
