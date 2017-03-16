@@ -32,24 +32,24 @@ get_header(); ?>
 			<?php echo $david_phone; ?><br>
 		
 			<span style="text-decoration: underline; color: #0000ff;">
-				<a style="color: #0000ff; text-decoration: underline; font-size: 2em;" href="mailto:<?php echo $david_email; ?>"> 
+				<a style="color: #0000ff; text-decoration: underline; font-size: 150%;" href="mailto:<?php echo $david_email; ?>"> 
 					<?php echo $david_email ?>
 				</a>
 			</span>
 		</div><!--contact-info-->
-		
+
 	<div class="social-links">	
+<!--	
 		<a href="http://www.imdb.com/name/nm8554950/" target="_blank">
-			<?php echo wp_get_attachment_image($imdb_image, $logo_size); ?>
+		<?php/* echo wp_get_attachment_image($imdb_image, $logo_size); */?>
 		</a>
+-->
 		<a href="https://www.linkedin.com/in/david-olsen-813a0b30/" target="_blank">
 			<?php echo wp_get_attachment_image($linkedin_image, $logo_size); ?>
 		</a>
 	</div><!--social-links-->
 
 </div><!--contact-page-->
-
-
 
 <?php
 get_footer(); ?>

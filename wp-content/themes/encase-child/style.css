@@ -43,6 +43,10 @@ body.home #header-meta {
     padding-top: 0px;
 }
 
+/* header menu */
+.home #header {
+position: relative;
+}
 /* Contact Page */
 
 .contact-page{
@@ -63,6 +67,7 @@ body.home #header-meta {
 	float: left;
 	display: inline-block;
 	margin-top: 2%;
+	margin-bottom: 2%;
 }
 
 /* Footer*/
