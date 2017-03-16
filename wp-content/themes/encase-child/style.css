@@ -75,3 +75,18 @@ footer#footer {
 	margin-top: -3%;
 	height: 80px;
 }   
+/*
+@media only screen and (max-width : 440px ) {
+.social-links {
+	float: none;
+	margin-top: 50%;
+	margin-left: -40%;
+}
+	
+	footer#footer {
+	margin-top: 30%;
+	height: 80px;
+}   
+
+}
+	*/
