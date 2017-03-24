@@ -129,7 +129,8 @@ span {
 footer#footer {
 	margin-top: -3%;
 	height: 80px;
-}   
+	clear: both;
+}
 
 @media only screen and (max-width : 440px ) {
 	 .home-page {
